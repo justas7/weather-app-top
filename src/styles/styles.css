@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+:root {
+  --color-one: #45609d;
+  --color-two: #7190c1;
+  --color-three: #e4e9be;
+  --color-four: rgb(252, 252, 252);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Assistant', sans-serif, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  padding: 5px;
+  height: 100vh;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(var(--color-one), var(--color-two));
+}
+
+@import './normalize.css';
+@import './weatherContainer.css';
+@import './header.css';

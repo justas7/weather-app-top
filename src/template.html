@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Weather app</title>
-	</head>
-	<body>
-		<script src="index.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div id="weatherContainer">
+      <div class="searchContainer">
+        <input
+          placeholder="Miestas..."
+          autocomplete="off"
+          id="searchInput"
+          type="search"
+        />
+
+        <ul class="searchResults"></ul>
+      </div>
+      <div class="weatherData"></div>
+    </div>
+  </body>
 </html>
